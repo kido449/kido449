@@ -1,61 +1,82 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="nirajHeroTitle nirajHeroDesc">
-  <title id="nirajHeroTitle">Niraj Damai</title>
-  <desc id="nirajHeroDesc">AI/ML Engineer, Full-Stack Developer, Creative Technologist. A burgundy technical portrait with a moving orbital line and luminous accents.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="560" viewBox="0 0 1440 560" role="img" aria-labelledby="ndHeroTitle ndHeroDesc">
+  <title id="ndHeroTitle">Niraj Damai | AI/ML Engineer and Full-Stack Developer</title>
+  <desc id="ndHeroDesc">An editorial burgundy identity: oversized serif lettering, technical registration marks, and a slow luminous orbit around an abstract signal form.</desc>
   <defs>
-    <linearGradient id="nirajHeroBg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#10070C"/>
-      <stop offset="0.58" stop-color="#190B12"/>
+    <linearGradient id="ndHeroGround" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10070C"/>
+      <stop offset="0.55" stop-color="#190B12"/>
       <stop offset="1" stop-color="#451126"/>
     </linearGradient>
-    <linearGradient id="nirajHeroGlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#701A3D"/>
-      <stop offset="0.48" stop-color="#E5B5C7"/>
-      <stop offset="1" stop-color="#701A3D"/>
-      <animate attributeName="x1" values="-0.4;0.4;-0.4" dur="9s" repeatCount="indefinite"/>
-      <animate attributeName="x2" values="0.6;1.4;0.6" dur="9s" repeatCount="indefinite"/>
-    </linearGradient>
-    <radialGradient id="nirajHeroHalo" cx="78%" cy="47%" r="58%">
-      <stop offset="0" stop-color="#701A3D" stop-opacity="0.36"/>
+    <radialGradient id="ndHeroLight" cx="76%" cy="45%" r="58%">
+      <stop stop-color="#C77B9B" stop-opacity="0.56"/>
+      <stop offset="0.52" stop-color="#701A3D" stop-opacity="0.34"/>
       <stop offset="1" stop-color="#10070C" stop-opacity="0"/>
+      <animate attributeName="cx" values="72%;78%;72%" dur="18s" repeatCount="indefinite"/>
     </radialGradient>
-    <pattern id="nirajHeroGrid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#E5B5C7" stroke-opacity="0.075" stroke-width="1"/>
-    </pattern>
-    <filter id="nirajHeroBlur" x="-40%" y="-200%" width="180%" height="500%">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
-    <mask id="nirajHeroGridFade">
-      <rect width="1200" height="430" fill="url(#nirajHeroMask)"/>
-    </mask>
-    <linearGradient id="nirajHeroMask" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="white" stop-opacity="0.1"/>
-      <stop offset="0.52" stop-color="white" stop-opacity="0.8"/>
-      <stop offset="1" stop-color="white" stop-opacity="0.32"/>
+    <linearGradient id="ndHeroRose" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#701A3D"/>
+      <stop offset="0.48" stop-color="#E5B5C7"/>
+      <stop offset="1" stop-color="#C77B9B"/>
+      <animate attributeName="x1" values="-0.2;0.35;-0.2" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0.8;1.35;0.8" dur="11s" repeatCount="indefinite"/>
     </linearGradient>
+    <pattern id="ndHeroMicroGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#E5B5C7" stroke-opacity="0.12" stroke-width="0.6"/>
+    </pattern>
+    <linearGradient id="ndHeroGridFade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="white" stop-opacity="0"/>
+      <stop offset="0.42" stop-color="white" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.72"/>
+    </linearGradient>
+    <mask id="ndHeroGridMask">
+      <rect width="1440" height="560" fill="url(#ndHeroGridFade)"/>
+    </mask>
+    <filter id="ndHeroBloom" x="-80%" y="-500%" width="260%" height="1100%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+    <filter id="ndHeroSignalGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="ndHeroFrame"><rect width="1440" height="560" rx="4"/></clipPath>
   </defs>
-  <rect width="1200" height="430" rx="8" fill="url(#nirajHeroBg)"/>
-  <rect width="1200" height="430" rx="8" fill="url(#nirajHeroHalo)"/>
-  <rect width="1200" height="430" rx="8" fill="url(#nirajHeroGrid)" mask="url(#nirajHeroGridFade)"/>
-  <path d="M0 354H1200" stroke="#E5B5C7" stroke-opacity="0.13"/>
-  <path d="M0 362H1200" stroke="#E5B5C7" stroke-opacity="0.07"/>
-  <g fill="none" stroke="#E5B5C7" stroke-opacity="0.34">
-    <ellipse cx="965" cy="205" rx="170" ry="64" transform="rotate(-27 965 205)"/>
-    <ellipse cx="965" cy="205" rx="170" ry="64" transform="rotate(27 965 205)"/>
-    <circle cx="965" cy="205" r="112" stroke-opacity="0.12"/>
+  <g clip-path="url(#ndHeroFrame)">
+    <rect width="1440" height="560" fill="url(#ndHeroGround)"/>
+    <rect width="1440" height="560" fill="url(#ndHeroLight)"/>
+    <rect width="1440" height="560" fill="url(#ndHeroMicroGrid)" mask="url(#ndHeroGridMask)"/>
+    <path d="M0 454H1440" stroke="#E5B5C7" stroke-opacity="0.16"/>
+    <path d="M0 459H1440" stroke="#E5B5C7" stroke-opacity="0.055"/>
+
+    <g fill="none" stroke="#E5B5C7" stroke-opacity="0.29">
+      <circle cx="1075" cy="247" r="174" stroke="#E5B5C7" stroke-opacity="0.52" stroke-dasharray="1 7"/>
+      <ellipse cx="1075" cy="247" rx="255" ry="86" transform="rotate(-31 1075 247)" stroke-opacity="0.58"/>
+      <ellipse cx="1075" cy="247" rx="255" ry="86" transform="rotate(31 1075 247)" stroke-opacity="0.38"/>
+      <circle cx="1075" cy="247" r="118" stroke-opacity="0.24"/>
+    </g>
+    <path d="M768 287C849 184 917 344 987 236S1126 137 1221 228 1323 306 1410 188" fill="none" stroke="url(#ndHeroRose)" stroke-width="2.6" stroke-dasharray="2 11" stroke-linecap="round" filter="url(#ndHeroSignalGlow)">
+      <animate attributeName="stroke-dashoffset" from="0" to="-104" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="1242" cy="187" r="5" fill="#F8F0F3" filter="url(#ndHeroSignalGlow)">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="912" cy="338" r="3" fill="#C77B9B"/>
+    <path d="M823 98V125M823 98H850M1360 369V396M1333 396H1360" fill="none" stroke="#E5B5C7" stroke-opacity="0.55"/>
+    <text x="1352" y="91" fill="#C77B9B" font-family="Consolas, monospace" font-size="11" text-anchor="end" letter-spacing="2">FIG. 01 / HUMAN + MACHINE</text>
+
+    <text x="84" y="101" fill="#E5B5C7" font-family="Consolas, monospace" font-size="12">AI SYSTEMS  /  PRODUCT ENGINEERING  /  CREATIVE TECHNOLOGY</text>
+    <path d="M84 121H167" stroke="#C77B9B" stroke-width="1.5"/>
+    <text x="74" y="252" fill="#F8F0F3" font-family="Georgia, 'Times New Roman', serif" font-size="126" letter-spacing="-2">Niraj</text>
+    <text x="74" y="369" fill="#F8F0F3" font-family="Georgia, 'Times New Roman', serif" font-size="126" letter-spacing="-2">Damai<tspan fill="#C77B9B">.</tspan></text>
+    <text x="87" y="410" fill="#E5B5C7" font-family="Segoe UI, Arial, sans-serif" font-size="18">AI/ML Engineer  <tspan fill="#C77B9B">/</tspan>  Full-Stack Developer  <tspan fill="#C77B9B">/</tspan>  Creative Technologist</text>
+    <path d="M86 432H792" stroke="#701A3D" stroke-width="13" opacity="0.6" filter="url(#ndHeroBloom)"/>
+    <path d="M86 432H792" stroke="url(#ndHeroRose)" stroke-width="1.7" stroke-linecap="round"/>
+
+    <text x="87" y="503" fill="#C77B9B" font-family="Consolas, monospace" font-size="11" letter-spacing="2">01</text>
+    <text x="121" y="503" fill="#F8F0F3" font-family="Consolas, monospace" font-size="11" letter-spacing="1.8">INTELLIGENCE</text>
+    <path d="M253 499H285" stroke="#701A3D"/>
+    <text x="303" y="503" fill="#F8F0F3" font-family="Consolas, monospace" font-size="11" letter-spacing="1.8">SYSTEMS</text>
+    <path d="M394 499H426" stroke="#701A3D"/>
+    <text x="444" y="503" fill="#F8F0F3" font-family="Consolas, monospace" font-size="11" letter-spacing="1.8">EXPERIENCE</text>
+    <text x="1352" y="503" fill="#C77B9B" font-family="Consolas, monospace" font-size="11" text-anchor="end">SELECTED WORK  /  01</text>
   </g>
-  <circle cx="1105" cy="131" r="4" fill="#E5B5C7">
-    <animate attributeName="opacity" values="0.35;1;0.35" dur="3.4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="828" cy="258" r="3" fill="#C77B9B"/>
-  <path d="M736 260 C810 158 866 302 936 195 S1064 128 1150 219" fill="none" stroke="url(#nirajHeroGlow)" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="10 12">
-    <animate attributeName="stroke-dashoffset" from="0" to="-88" dur="8s" repeatCount="indefinite"/>
-  </path>
-  <text x="82" y="92" fill="#E5B5C7" font-family="Segoe UI, Arial, sans-serif" font-size="13" letter-spacing="3">ENGINEERING / INTELLIGENCE / DESIGN</text>
-  <path d="M82 112H178" stroke="#701A3D" stroke-width="2"/>
-  <text x="78" y="218" fill="#F8F0F3" font-family="Georgia, 'Times New Roman', serif" font-size="76">Niraj Damai</text>
-  <text x="82" y="266" fill="#E5B5C7" font-family="Segoe UI, Arial, sans-serif" font-size="19">AI/ML Engineer  <tspan fill="#C77B9B">|</tspan>  Full-Stack Developer</text>
-  <text x="82" y="296" fill="#E5B5C7" font-family="Segoe UI, Arial, sans-serif" font-size="19">Creative Technologist</text>
-  <path d="M82 324H560" stroke="#701A3D" stroke-width="8" opacity="0.48" filter="url(#nirajHeroBlur)"/>
-  <path d="M82 324H560" stroke="url(#nirajHeroGlow)" stroke-width="2" stroke-linecap="round"/>
-  <text x="82" y="390" fill="#C77B9B" font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="1.2">BUILDING SYSTEMS THAT THINK, SERVE &amp; FEEL CONSIDERED</text>
 </svg>

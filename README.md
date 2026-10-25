@@ -3,46 +3,52 @@
 </p>
 
 <p align="center">
-	<a href="https://github.com/kido449">GitHub</a>
-	&nbsp;·&nbsp;
-	<a href="https://github.com/kido449?tab=repositories">Projects</a>
-	&nbsp;·&nbsp;
-	<a href="https://github.com/users/kido449/contributions">Contribution graph</a>
+	<a href="https://github.com/kido449">PROFILE</a>
+	&nbsp; / &nbsp;
+	<a href="https://github.com/kido449?tab=repositories">WORK</a>
+	&nbsp; / &nbsp;
+	<a href="https://github.com/users/kido449/contributions">CONTRIBUTIONS</a>
 </p>
 
-## Profile
+## 01 / Point of view
 
-I build software where applied AI meets thoughtful product design. My recent work includes agent security, animal-rescue operations, and tools for understanding personal environmental impact.
+I work across applied AI and full-stack product engineering. The work here explores three things: safer agent systems, better tools for animal-rescue teams, and software that makes sustainability more tangible.
 
-## Selected work
+## 02 / Selected work
 
-| Project | What it does | Stack | Links |
-| --- | --- | --- | --- |
-| **AgentArmor** | A security gateway that inspects untrusted tool output before it reaches an AI agent, with detection, policy actions, and a live telemetry dashboard. | Python, TypeScript, Moss, Groq, Gemini | [Repository](https://github.com/kido449/AgentArmor) |
-| **PawsMatch / ShelterOps** | An agent-assisted rescue operations app for animal-applicant matching, multilingual intake, and shelter workflow support. | Python, FastAPI, React, Vite, Strands Agents, Gemini, Sarvam AI, SQLite | [Repository](https://github.com/kido449/pawsMatch) · [Live app](https://paws-match-zeta.vercel.app/) |
-| **Terra** | A sustainability platform for personalized carbon-footprint awareness, impact simulations, and habit building. | React, Vite, Tailwind CSS, Chart.js | [Repository](https://github.com/kido449/terra-eco-tracker) |
+### AgentArmor
 
-## Focus
+An AI-agent security gateway that inspects untrusted tool output, applies policy actions, and streams telemetry to a dashboard.
 
-**AI & agents** · Agent workflows, tool use, Gemini, Groq, Strands Agents, Moss
+`Python` `TypeScript` `Moss` `Groq` `Gemini`  ·  [Source](https://github.com/kido449/AgentArmor)
 
-**Full-stack** · Python, FastAPI, TypeScript, React, Vite, SQLite
+### PawsMatch / ShelterOps
 
-**Product engineering** · Tailwind CSS, Chart.js, responsive interfaces, data visualization
+An agent-assisted rescue operations product for animal-applicant matching, multilingual intake, and shelter workflow support. Built for the AWS Agents for Humans hackathon, Good Neighbor Agents track.
 
-## Highlights
+`Python` `FastAPI` `React` `Strands Agents` `Gemini` `Sarvam AI` `SQLite`  ·  [Source](https://github.com/kido449/pawsMatch) · [Live app](https://paws-match-zeta.vercel.app/)
 
-Project contexts documented in the repositories include **AWS Agents for Humans — Good Neighbor Agents Track** (PawsMatch) and **Prompt Wars Virtual — Challenge 3** (Terra). These are project contexts, not award claims.
+### Terra
 
-Education, certifications, and additional awards are not listed here because no supporting resume or evidence was included with this repository.
+A sustainability platform for personal carbon-footprint awareness, what-if impact simulations, and habit building. Built for Prompt Wars Virtual, Challenge 3.
 
-## Contributions
+`React` `Vite` `Tailwind CSS` `Chart.js`  ·  [Source](https://github.com/kido449/terra-eco-tracker)
 
-View my **[live contribution heatmap on GitHub](https://github.com/users/kido449/contributions)**. The graph is hosted by GitHub; no contribution totals or activity metrics are reproduced here.
+## 03 / Toolkit
 
-## Find me
+**AI & agent systems**  ·  Gemini, Groq, Strands Agents, Moss
 
-[GitHub profile](https://github.com/kido449) · [Public repositories](https://github.com/kido449?tab=repositories)
+**Application engineering**  ·  Python, FastAPI, TypeScript, React, Vite
+
+**Data & interface**  ·  SQLite, Chart.js, Tailwind CSS
+
+## 04 / Activity
+
+GitHub hosts my **[live contribution graph](https://github.com/users/kido449/contributions)**. No third-party activity estimates or contribution totals are embedded here.
+
+## 05 / Elsewhere
+
+[GitHub profile](https://github.com/kido449)  ·  [All public repositories](https://github.com/kido449?tab=repositories)
 
 <p align="center">
 	<img src="assets/niraj-footer.svg" alt="Burgundy orbital line motif" width="100%">
